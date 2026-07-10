@@ -12,8 +12,8 @@ import User from './User'
 function App() {
   // const [count, setCount] = useState(0)
 
-  let name = "ABC";
-  let age = 24;
+  //let name = "ABC";
+  //let age = 24;
   //let hobbies = ["Reading", "Traveling", "Cooking"];
 
   //state
