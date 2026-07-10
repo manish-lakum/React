@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+//import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
@@ -6,14 +6,20 @@ import './App.css'
 //import Footer from './Footer'
 //import Cart from './cart'
 import User from './User'
+//import Login from './Authentication';
 
 
 function App() {
   // const [count, setCount] = useState(0)
 
   let name = "ABC";
-  let age = 24; 
-  let hobbies = ["Reading", "Traveling", "Cooking"];
+  //let age = 24; 
+  //let hobbies = ["Reading", "Traveling", "Cooking"];
+
+  //state
+  //const [status, setStatus] = useState("false");
+  //const [username, setUsername] = useState("Guest");
+
   
   return (
     <>
@@ -134,7 +140,16 @@ function App() {
           
           <User name="Manish" age={21}/>
           */}
-          <User name={name} age={age} hobbies={hobbies}/>
+
+          <h1>User Information</h1>
+
+          {/*<User name={name} age={age} hobbies={hobbies}/>*/}
+          
+         {/*} <Login status={status} 
+          setStatus={setStatus}
+          username={username}
+          setUsername={setUsername}/>*/}
+          <User name={name} age={24}/>
         </div>
       </section>
 

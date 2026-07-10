@@ -26,7 +26,7 @@ export default function User({name,age}) {
     )
 }
 
-}*/
+}
 
 export default function User({name,age,hobbies}) {
     return(
@@ -41,6 +41,20 @@ export default function User({name,age,hobbies}) {
                         <li key={index}>{hobby}</li>
                     ))}
                 </ul>
+            </div>
+        </>
+    )
+}
+
+*/
+
+export default function User({name="Guest", age=21}) {
+    return(
+        <>
+            <div>
+                <hr/>
+                <h2>User Name : {name}</h2>
+                <h2>User Age : {age}</h2>
             </div>
         </>
     )
