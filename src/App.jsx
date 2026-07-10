@@ -13,7 +13,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   let name = "ABC";
-  //let age = 24; 
+  let age = 24;
   //let hobbies = ["Reading", "Traveling", "Cooking"];
 
   //state
@@ -144,12 +144,12 @@ function App() {
           <h1>User Information</h1>
 
           {/*<User name={name} age={age} hobbies={hobbies}/>*/}
-          
+
          {/*} <Login status={status} 
           setStatus={setStatus}
           username={username}
           setUsername={setUsername}/>*/}
-          <User name={name} age={24}/>
+          <User/>
         </div>
       </section>
 
