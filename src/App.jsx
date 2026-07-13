@@ -5,15 +5,16 @@
 import './App.css'
 //import Footer from './Footer'
 //import Cart from './cart'
-import User from './User'
+//import User from './User'
 //import Login from './Authentication';
+import Registration from './Registration';
 
 
 function App() {
   // const [count, setCount] = useState(0)
 
-  let name = "ABC";
-  let age = 24;
+  //let name = "ABC";
+  //let age = 24;
   //let hobbies = ["Reading", "Traveling", "Cooking"];
 
   //state
@@ -148,8 +149,10 @@ function App() {
          {/*} <Login status={status} 
           setStatus={setStatus}
           username={username}
-          setUsername={setUsername}/>*/}
-          <User/>
+          setUsername={setUsername}/>
+          <User/>*/}
+
+          <Registration/>
         </div>
       </section>
 
