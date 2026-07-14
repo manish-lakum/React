@@ -7,7 +7,8 @@ import './App.css'
 //import Cart from './cart'
 //import User from './User'
 //import Login from './Authentication';
-import Registration from './Registration';
+//import Registration from './Registration';
+import Loop from './Loop'
 
 
 function App() {
@@ -150,9 +151,10 @@ function App() {
           setStatus={setStatus}
           username={username}
           setUsername={setUsername}/>
-          <User/>*/}
+          <User/>
 
-          <Registration/>
+          <Registration/>*/}
+          <Loop/>
         </div>
       </section>
 
