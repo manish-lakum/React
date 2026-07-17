@@ -6,10 +6,12 @@ import './App.css'
 //import Footer from './Footer'
 //import Cart from './cart'
 //import User from './User'
-//import Login from './Authentication';
-//import Registration from './Registration';
-import Loop from './Loop'
-
+//import Login from './Authentication'
+//import Registration from './Registration'
+//import Loop from './Loop'
+//import Effect_Hook from './Effect_Hook'
+import Navbar from './Navbar'
+import Form from './Form'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -153,8 +155,13 @@ function App() {
           setUsername={setUsername}/>
           <User/>
 
-          <Registration/>*/}
+          <Registration/>
+
           <Loop/>
+
+          <Effect_Hook/>*/}
+          <Navbar/>
+          <Form/>
         </div>
       </section>
 
