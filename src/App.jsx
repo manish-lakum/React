@@ -10,8 +10,9 @@ import './App.css'
 //import Registration from './Registration'
 //import Loop from './Loop'
 //import Effect_Hook from './Effect_Hook'
-import Navbar from './Navbar'
-import Form from './Form'
+//import Navbar from './Navbar'
+//import Form from './Form'
+import Tailwindcss_Task from './Tailwindcss_Task'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -134,18 +135,21 @@ function App() {
         */}
 
         <div>
-          <h2>Welcome to Our University</h2>
-          <br/>
           {/*
+          <h2 class="text-3xl font-bold underline bg-yellow-200 hover:bg-green-500 rounded-xl shadow-lg">Welcome to Our University</h2>
+          <br/>
+          
           <Cart/>
           <br/>
           <br/>
           <Footer/>
           
           <User name="Manish" age={21}/>
-          */}
+         
 
-          <h1>User Information</h1>
+          <h1 >User Information</h1>
+
+           */}
 
           {/*<User name={name} age={age} hobbies={hobbies}/>*/}
 
@@ -159,9 +163,14 @@ function App() {
 
           <Loop/>
 
-          <Effect_Hook/>*/}
-          <Navbar/>
-          <Form/>
+          <Effect_Hook/>
+          */}
+
+          {/*<Navbar/>
+          <Form/>*/}
+
+          <Tailwindcss_Task/>
+          
         </div>
       </section>
 
