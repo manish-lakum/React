@@ -1,4 +1,4 @@
-//import { useState } from 'react'
+import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
@@ -7,12 +7,13 @@ import './App.css'
 //import Cart from './cart'
 //import User from './User'
 //import Login from './Authentication'
-//import Registration from './Registration'
+import Registration from './Registration'
+import User_Details from './User_Details'
 //import Loop from './Loop'
 //import Effect_Hook from './Effect_Hook'
 //import Navbar from './Navbar'
 //import Form from './Form'
-import Tailwindcss_Task from './Tailwindcss_Task'
+//import Tailwindcss_Task from './Tailwindcss_Task'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -24,6 +25,8 @@ function App() {
   //state
   //const [status, setStatus] = useState("false");
   //const [username, setUsername] = useState("Guest");
+
+  const [User, setUser]=useState("");
 
   
   return (
@@ -159,7 +162,7 @@ function App() {
           setUsername={setUsername}/>
           <User/>
 
-          <Registration/>
+          
 
           <Loop/>
 
@@ -167,9 +170,14 @@ function App() {
           */}
 
           {/*<Navbar/>
-          <Form/>*/}
+          <Form/>
+          
+          <Tailwindcss_Task/>*/}
 
-          <Tailwindcss_Task/>
+          <Registration setUser={setUser}/>
+          <User_Details User={User}/> 
+
+          
           
         </div>
       </section>
