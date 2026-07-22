@@ -1,37 +1,46 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
 // import heroImg from './assets/hero.png'
-import './App.css'
+//import './App.css'
 //import Footer from './Footer'
 //import Cart from './cart'
 //import User from './User'
 //import Login from './Authentication'
-import Registration from './Registration'
-import User_Details from './User_Details'
+//import Registration from './Registration'
+//import User_Details from './User_Details'
 //import Loop from './Loop'
 //import Effect_Hook from './Effect_Hook'
 //import Navbar from './Navbar'
 //import Form from './Form'
 //import Tailwindcss_Task from './Tailwindcss_Task'
 
+import Tailwind_Task from './Tailwind_Task'
+
 function App() {
-  // const [count, setCount] = useState(0)
-
-  //let name = "ABC";
-  //let age = 24;
-  //let hobbies = ["Reading", "Traveling", "Cooking"];
-
-  //state
-  //const [status, setStatus] = useState("false");
-  //const [username, setUsername] = useState("Guest");
-
-  const [User, setUser]=useState("");
-
   
   return (
     <>
       <section id="center">
+
+     
+      <Tailwind_Task/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         {/*
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -172,12 +181,12 @@ function App() {
           {/*<Navbar/>
           <Form/>
           
-          <Tailwindcss_Task/>*/}
+          <Tailwindcss_Task/>
 
           <Registration setUser={setUser}/>
           <User_Details User={User}/> 
 
-          
+          */}
           
         </div>
       </section>
